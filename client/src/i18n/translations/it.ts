@@ -469,7 +469,7 @@ const it: Record<string, string | { name: string; category: string }[]> = {
     // Packing Templates & Bag Tracking
   'admin.bagTracking.title': 'Tracciamento valigia',
   'admin.bagTracking.subtitle': 'Abilita il peso e l\'assegnazione della valigia per gli elementi della lista valigia',
-  'admin.tabs.config': 'Configurazione',
+  'admin.tabs.config': 'Personalizzazione',
   'admin.tabs.templates': 'Modelli lista valigia',
   'admin.packingTemplates.title': 'Modelli lista valigia',
   'admin.packingTemplates.subtitle': 'Crea liste valigia riutilizzabili per i tuoi viaggi',
@@ -535,7 +535,7 @@ const it: Record<string, string | { name: string; category: string }[]> = {
   'admin.weather.requestsDesc': 'Gratis, nessuna chiave API richiesta',
   'admin.weather.locationHint': 'Il meteo si basa sul primo luogo con coordinate di ogni giorno. Se a un giorno non è assegnato alcun luogo, viene utilizzato come riferimento un qualsiasi luogo dell\'elenco.',
 
-  'admin.tabs.audit': 'Log di audit',
+  'admin.tabs.audit': 'Audit',
 
   'admin.audit.subtitle': 'Eventi sensibili di sicurezza e amministrazione (backup, utenti, 2FA, impostazioni).',
   'admin.audit.empty': 'Nessuna voce di audit.',
@@ -1638,8 +1638,6 @@ const it: Record<string, string | { name: string; category: string }[]> = {
   'admin.notifications.adminWebhookPanel.alwaysOnHint': 'Il webhook admin si attiva automaticamente quando è configurato un URL',
   'admin.notifications.adminNotificationsHint': 'Configura quali canali consegnano le notifiche admin (es. avvisi di versione). Il webhook si attiva automaticamente se è impostato un URL webhook admin.',
   'admin.tabs.notifications': 'Notifications',
-  'admin.tabs.notificationChannels': 'Canali di notifica',
-  'admin.tabs.adminNotifications': 'Notifiche admin',
   'notifications.versionAvailable.title': 'Aggiornamento disponibile',
   'notifications.versionAvailable.text': 'TREK {version} è ora disponibile.',
   'notifications.versionAvailable.button': 'Visualizza dettagli',

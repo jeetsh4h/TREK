@@ -470,7 +470,7 @@ const hu: Record<string, string | { name: string; category: string }[]> = {
   // Csomagolási sablonok és poggyászkövetés
   'admin.bagTracking.title': 'Poggyászkövetés',
   'admin.bagTracking.subtitle': 'Súly- és táskahozzárendelés engedélyezése csomagolási tételeknél',
-  'admin.tabs.config': 'Konfiguráció',
+  'admin.tabs.config': 'Személyre szabás',
   'admin.tabs.templates': 'Csomagolási sablonok',
   'admin.packingTemplates.title': 'Csomagolási sablonok',
   'admin.packingTemplates.subtitle': 'Újrafelhasználható csomagolási listák létrehozása utazásaidhoz',
@@ -535,7 +535,7 @@ const hu: Record<string, string | { name: string; category: string }[]> = {
   'admin.weather.requestsDesc': 'Ingyenes, nincs szükség API kulcsra',
   'admin.weather.locationHint': 'Az időjárás az adott nap első koordinátákkal rendelkező helye alapján készül. Ha nincs hely hozzárendelve a naphoz, a helylista bármelyik helye szolgál referenciául.',
 
-  'admin.tabs.audit': 'Auditnapló',
+  'admin.tabs.audit': 'Audit',
 
   'admin.audit.subtitle': 'Biztonsági és adminisztrációs események (mentések, felhasználók, 2FA, beállítások).',
   'admin.audit.empty': 'Még nincsenek audit bejegyzések.',
@@ -1638,8 +1638,6 @@ const hu: Record<string, string | { name: string; category: string }[]> = {
   'admin.notifications.adminWebhookPanel.alwaysOnHint': 'Az admin webhook automatikusan küld, ha URL van beállítva',
   'admin.notifications.adminNotificationsHint': 'Állítsa be, hogy mely csatornák szállítsák az admin értesítéseket (pl. verziófrissítési figyelmeztetések). A webhook automatikusan küld, ha admin webhook URL van megadva.',
   'admin.tabs.notifications': 'Értesítések',
-  'admin.tabs.notificationChannels': 'Értesítési csatornák',
-  'admin.tabs.adminNotifications': 'Admin értesítések',
   'notifications.versionAvailable.title': 'Elérhető frissítés',
   'notifications.versionAvailable.text': 'A TREK {version} már elérhető.',
   'notifications.versionAvailable.button': 'Részletek megtekintése',

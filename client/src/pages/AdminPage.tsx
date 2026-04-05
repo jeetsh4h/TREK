@@ -109,7 +109,7 @@ function AdminNotificationsPanel({ t, toast }: { t: (k: string) => string; toast
     <div className="space-y-4">
       <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
         <div className="px-6 py-4 border-b border-slate-100">
-          <h2 className="font-semibold text-slate-900">{t('admin.tabs.adminNotifications')}</h2>
+          <h2 className="font-semibold text-slate-900">{t('admin.tabs.notifications')}</h2>
           <p className="text-xs text-slate-400 mt-1">{t('admin.notifications.adminNotificationsHint')}</p>
         </div>
         <div className="p-6">
@@ -169,8 +169,7 @@ export default function AdminPage(): React.ReactElement {
     { id: 'config', label: t('admin.tabs.config') },
     { id: 'addons', label: t('admin.tabs.addons') },
     { id: 'settings', label: t('admin.tabs.settings') },
-    { id: 'notification-channels', label: t('admin.tabs.notificationChannels') },
-    { id: 'admin-notifications', label: t('admin.tabs.adminNotifications') },
+    { id: 'notifications', label: t('admin.tabs.notifications') },
     { id: 'backup', label: t('admin.tabs.backup') },
     { id: 'audit', label: t('admin.tabs.audit') },
     ...(mcpEnabled ? [{ id: 'mcp-tokens', label: t('admin.tabs.mcpTokens') }] : []),
@@ -1099,7 +1098,7 @@ export default function AdminPage(): React.ReactElement {
             </div>
           )}
 
-          {activeTab === 'notification-channels' && (() => {
+          {activeTab === 'notifications' && (() => {
             // Derive active channels from smtpValues.notification_channels (plural)
             // with fallback to notification_channel (singular) for existing installs
             const rawChannels = smtpValues.notification_channels ?? smtpValues.notification_channel ?? 'none'
@@ -1135,7 +1134,7 @@ export default function AdminPage(): React.ReactElement {
               } catch { toast.error(t('common.error')) }
             }
 
-            return (
+            return (<>
               <div className="space-y-4">
                 {/* Email Panel */}
                 <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
@@ -1297,10 +1296,11 @@ export default function AdminPage(): React.ReactElement {
                 </div>
 
               </div>
-            )
+              <div className="mt-6">
+                <AdminNotificationsPanel t={t} toast={toast} />
+              </div>
+            </>)
           })()}
-
-          {activeTab === 'admin-notifications' && <AdminNotificationsPanel t={t} toast={toast} />}
 
           {activeTab === 'backup' && <BackupPanel />}
 

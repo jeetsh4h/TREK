@@ -469,7 +469,7 @@ const fr: Record<string, string> = {
 
   'admin.bagTracking.title': 'Suivi des bagages',
   'admin.bagTracking.subtitle': 'Activer le poids et l\'attribution de bagages pour les articles',
-  'admin.tabs.config': 'Configuration',
+  'admin.tabs.config': 'Personnalisation',
   'admin.tabs.templates': 'Modèles de bagages',
   'admin.packingTemplates.title': 'Modèles de bagages',
   'admin.packingTemplates.subtitle': 'Créer des listes de bagages réutilisables pour vos voyages',
@@ -534,7 +534,7 @@ const fr: Record<string, string> = {
   'admin.weather.requestsDesc': 'Gratuit, aucune clé API requise',
   'admin.weather.locationHint': 'La météo est basée sur le premier lieu avec des coordonnées de chaque jour. Si aucun lieu n\'est attribué à un jour, un lieu de la liste est utilisé comme référence.',
 
-  'admin.tabs.audit': 'Journal d\'audit',
+  'admin.tabs.audit': 'Audit',
 
   'admin.audit.subtitle': 'Événements sensibles de sécurité et d\'administration (sauvegardes, utilisateurs, 2FA, paramètres).',
   'admin.audit.empty': 'Aucune entrée d\'audit.',
@@ -1637,8 +1637,6 @@ const fr: Record<string, string> = {
   'admin.notifications.adminWebhookPanel.alwaysOnHint': 'Le webhook admin s\'active automatiquement si une URL est configurée',
   'admin.notifications.adminNotificationsHint': 'Configurez quels canaux envoient les notifications admin (ex. alertes de version). Le webhook s\'active automatiquement si une URL webhook admin est définie.',
   'admin.tabs.notifications': 'Notifications',
-  'admin.tabs.notificationChannels': 'Canaux de notification',
-  'admin.tabs.adminNotifications': 'Notifications admin',
   'notifications.versionAvailable.title': 'Mise à jour disponible',
   'notifications.versionAvailable.text': 'TREK {version} est maintenant disponible.',
   'notifications.versionAvailable.button': 'Voir les détails',

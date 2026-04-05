@@ -470,7 +470,7 @@ const cs: Record<string, string | { name: string; category: string }[]> = {
   // Šablony balení (Packing Templates)
   'admin.bagTracking.title': 'Sledování zavazadel',
   'admin.bagTracking.subtitle': 'Povolit váhu a přiřazení k zavazadlům u položek balení',
-  'admin.tabs.config': 'Konfigurace',
+  'admin.tabs.config': 'Personalizace',
   'admin.tabs.templates': 'Šablony seznamů',
   'admin.packingTemplates.title': 'Šablony pro balení',
   'admin.packingTemplates.subtitle': 'Vytvářejte opakovaně použitelné seznamy pro své cesty',
@@ -524,7 +524,7 @@ const cs: Record<string, string | { name: string; category: string }[]> = {
   'admin.addons.subtitleBefore': 'Zapněte nebo vypněte funkce a přizpůsobte si ',
   'admin.addons.subtitleAfter': '.',
 
-  'admin.tabs.audit': 'Auditní protokol',
+  'admin.tabs.audit': 'Audit',
 
   'admin.audit.subtitle': 'Bezpečnostní a administrátorské události (zálohy, uživatelé, 2FA, nastavení).',
   'admin.audit.empty': 'Zatím žádné záznamy auditu.',
@@ -1641,8 +1641,6 @@ const cs: Record<string, string | { name: string; category: string }[]> = {
   'admin.notifications.adminWebhookPanel.alwaysOnHint': 'Admin webhook odesílá automaticky, pokud je nastavena URL',
   'admin.notifications.adminNotificationsHint': 'Nastavte, které kanály doručují admin oznámení (např. upozornění na verze). Webhook odesílá automaticky, pokud je nastavena URL admin webhooku.',
   'admin.tabs.notifications': 'Oznámení',
-  'admin.tabs.notificationChannels': 'Kanály oznámení',
-  'admin.tabs.adminNotifications': 'Admin oznámení',
   'notifications.versionAvailable.title': 'Dostupná aktualizace',
   'notifications.versionAvailable.text': 'TREK {version} je nyní k dispozici.',
   'notifications.versionAvailable.button': 'Zobrazit podrobnosti',

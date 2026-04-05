@@ -470,7 +470,7 @@ const br: Record<string, string | { name: string; category: string }[]> = {
   // Packing Templates & Bag Tracking
   'admin.bagTracking.title': 'Rastreamento de malas',
   'admin.bagTracking.subtitle': 'Ativar peso e atribuição de mala para itens da lista',
-  'admin.tabs.config': 'Configuração',
+  'admin.tabs.config': 'Personalização',
   'admin.tabs.templates': 'Modelos de mala',
   'admin.packingTemplates.title': 'Modelos de mala',
   'admin.packingTemplates.subtitle': 'Crie listas de mala reutilizáveis para suas viagens',
@@ -535,7 +535,7 @@ const br: Record<string, string | { name: string; category: string }[]> = {
   'admin.weather.requestsDesc': 'Grátis, sem chave de API',
   'admin.weather.locationHint': 'O clima usa o primeiro lugar com coordenadas de cada dia. Se nenhum lugar estiver atribuído ao dia, qualquer lugar da lista serve como referência.',
 
-  'admin.tabs.audit': 'Log de auditoria',
+  'admin.tabs.audit': 'Audit',
 
   'admin.audit.subtitle': 'Eventos sensíveis de segurança e administração (backups, usuários, 2FA, configurações).',
   'admin.audit.empty': 'Nenhum registro de auditoria.',
@@ -1636,8 +1636,6 @@ const br: Record<string, string | { name: string; category: string }[]> = {
   'admin.notifications.adminWebhookPanel.alwaysOnHint': 'O webhook de admin dispara automaticamente quando uma URL está configurada',
   'admin.notifications.adminNotificationsHint': 'Configure quais canais entregam notificações de admin (ex. alertas de versão). O webhook dispara automaticamente se uma URL de webhook de admin estiver definida.',
   'admin.tabs.notifications': 'Notificações',
-  'admin.tabs.notificationChannels': 'Canais de notificação',
-  'admin.tabs.adminNotifications': 'Notificações de admin',
   'notifications.versionAvailable.title': 'Atualização disponível',
   'notifications.versionAvailable.text': 'TREK {version} já está disponível.',
   'notifications.versionAvailable.button': 'Ver detalhes',
